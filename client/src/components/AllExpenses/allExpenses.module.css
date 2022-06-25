@@ -1,0 +1,15 @@
+.allExpenses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mainText {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--primary-header-background);
+  padding: 0.2rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+}

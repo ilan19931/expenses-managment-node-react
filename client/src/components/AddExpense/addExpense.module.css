@@ -1,0 +1,35 @@
+.addExpense {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.addExpense:hover .showHide {
+  display: block;
+}
+
+.twoCols {
+  display: flex;
+  gap: 1rem;
+  margin: 0.5rem 0;
+}
+
+.header {
+}
+
+.showHide {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  font-weight: bold;
+  border: 2px silver solid;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.showHide:hover {
+  color: rgb(15, 221, 15);
+}

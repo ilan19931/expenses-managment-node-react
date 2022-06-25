@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ced4da;
+  padding: 0.5rem;
+}
+
+.leftSide {
+}
+
+.rightSide {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-item {
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 500ms ease;
+}
+
+.nav-item:hover {
+  box-shadow: none;
+  color: white;
+  background-color: #adb5bd;
+}

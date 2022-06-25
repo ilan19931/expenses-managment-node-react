@@ -1,0 +1,35 @@
+.expense {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr 1fr 0.5fr 0.5fr;
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 5px;
+  margin: 0 0.5rem;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 500ms ease;
+}
+
+.expense:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.icon {
+}
+
+.title {
+  text-align: left;
+  font-weight: bold;
+}
+
+.description {
+}
+
+.date {
+}
+
+.price {
+  font-weight: bold;
+}

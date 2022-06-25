@@ -1,0 +1,52 @@
+.header {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: var(--primary-header-background);
+  border-radius: 6px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.categories {
+  align-self: center;
+}
+
+.allExpenses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mainText {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: var(--primary-header-background);
+  padding: 0.2rem;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;
+}
+
+.sum {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.sum > span {
+  color: red;
+  text-decoration: underline;
+}

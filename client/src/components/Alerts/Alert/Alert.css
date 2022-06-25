@@ -1,0 +1,15 @@
+.Alert {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  margin: 0 1rem;
+}
+
+.AlertError {
+  background-color: red;
+}
+
+.AlertMessage {
+  background-color: green;
+}
